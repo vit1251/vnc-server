@@ -1,0 +1,15 @@
+[package]
+name = "simple-vnc-server"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+tokio = { version = "*", features = ["full"] }
+rustls = "*"
+webpki-roots = "*"
+log = "*"
+env_logger = "*"
+tokio-rustls = "*"
+rustls-pemfile = "*"
+byteorder = "1.5.0"
